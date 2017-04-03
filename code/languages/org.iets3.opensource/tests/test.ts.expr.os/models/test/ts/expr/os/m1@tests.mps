@@ -3659,7 +3659,7 @@
     <property role="2XOHcw" value="${iets3.github.opensource.home}/code/languages/org.iets3.opensource" />
   </node>
   <node concept="1lH9Xt" id="2M9Ik4CVVA_">
-    <property role="TrG5h" value="NumerTypeCalculation" />
+    <property role="TrG5h" value="NumberTypeCalculation" />
     <node concept="1qefOq" id="2M9Ik4CVVAA" role="1SKRRt">
       <node concept="_iOnU" id="2M9Ik4CVVAB" role="1qenE9">
         <property role="TrG5h" value="NumberTypeCalculation" />
@@ -4362,6 +4362,14 @@
             <node concept="2vmpn$" id="5yJrCoWb9bB" role="_fkuS" />
           </node>
         </node>
+        <node concept="1WbbD7" id="1Is9CyJHKXf" role="_iOnB">
+          <property role="TrG5h" value="numberWith2Decimals" />
+          <node concept="mLuIC" id="1Is9CyJHL2t" role="1WbbD4">
+            <node concept="2gteS_" id="1Is9CyJHL2B" role="2gteVg">
+              <property role="2gteVv" value="2" />
+            </node>
+          </node>
+        </node>
         <node concept="_fkuM" id="1Is9CyJHCIG" role="_iOnB">
           <property role="TrG5h" value="castToLessDigits" />
           <node concept="_fkuZ" id="1Is9CyJHCNA" role="_fkp5">
@@ -4393,6 +4401,34 @@
                 <node concept="2gteS_" id="1Is9CyJHCOQ" role="2gteVg">
                   <property role="2gteVv" value="2" />
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="_fkuZ" id="1Is9CyJHL7T" role="_fkp5">
+            <node concept="_fku$" id="1Is9CyJHL7U" role="_fkur" />
+            <node concept="30bXRB" id="1Is9CyJHL7V" role="_fkuS">
+              <property role="30bXRw" value="1.23" />
+            </node>
+            <node concept="1KhrV4" id="1Is9CyJHL7W" role="_fkuY">
+              <node concept="30bXRB" id="1Is9CyJHL7X" role="12NKtY">
+                <property role="30bXRw" value="1.2345678" />
+              </node>
+              <node concept="1WbbFT" id="1Is9CyJHL9Y" role="1KhrV9">
+                <ref role="1WbbFS" node="1Is9CyJHKXf" resolve="numberWith2Decimals" />
+              </node>
+            </node>
+          </node>
+          <node concept="_fkuZ" id="1Is9CyJHL80" role="_fkp5">
+            <node concept="_fku$" id="1Is9CyJHL81" role="_fkur" />
+            <node concept="30bXRB" id="1Is9CyJHL82" role="_fkuS">
+              <property role="30bXRw" value="1.24" />
+            </node>
+            <node concept="1KhrV4" id="1Is9CyJHL83" role="_fkuY">
+              <node concept="30bXRB" id="1Is9CyJHL84" role="12NKtY">
+                <property role="30bXRw" value="1.23945678" />
+              </node>
+              <node concept="1WbbFT" id="1Is9CyJHLa$" role="1KhrV9">
+                <ref role="1WbbFS" node="1Is9CyJHKXf" resolve="numberWith2Decimals" />
               </node>
             </node>
           </node>
